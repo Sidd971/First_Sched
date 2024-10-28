@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Schedule</title>
+    <style>
+        /* Dark brutalist theme */
+        body {
+            background-color: #1b1b1b;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-transform: uppercase;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #f0a500;
+            border-bottom: 2px solid #f0a500;
+            display: inline-block;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 2px solid #f0a500;
+            background-color: #333;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 0;
+            font-weight: bold;
+            color: #f0a500;
+            text-decoration: underline;
+        }
+
+        p, li {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: none;
+        }
+
+        .time-slot {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #ffcc00;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        /* Non-interactive "image" effect */
+        body * {
+            pointer-events: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daily Schedule</h1>
+
+    <section>
+        <h2>Morning (Waking up until Lunch at 3 PM)</h2>
+        <p><span class="time-slot">Wake up:</span> Take it slow if you need; enjoy some easy time to start the day. Use this to settle in and prep mentally.</p>
+        <p><span class="time-slot">Post-breakfast (around 11 AM):</span> Gentle productivity or light tasks, maybe brainstorming for your projects or organizing your space. This way, you're easing into work mode without diving in fully.</p>
+    </section>
+
+    <section>
+        <h2>Afternoon (After Lunch, 3 PM - 6 PM)</h2>
+        <ul>
+            <li><span class="time-slot">3:00 PM - 4:00 PM: Project 1 Kickoff</span>
+                <p>Start with Project 1 and break it down into a few manageable tasks. Focus on gathering resources, making an outline, or setting a foundation.</p>
+            </li>
+            <li><span class="time-slot">4:15 PM - 5:15 PM: Project 2 Kickoff</span>
+                <p>Shift focus to Project 2 to keep the momentum going. Make notes, outline objectives, and get an overview. Take a 5-10 min break if needed between projects.</p>
+            </li>
+            <li><span class="time-slot">5:30 PM - 6:00 PM: Meditation</span>
+                <p>Give yourself a breather with meditation to relax, reset, and avoid burnout before the evening.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Evening (6 PM - 10 PM)</h2>
+        <ul>
+            <li><span class="time-slot">6:00 PM - 7:00 PM: Certification Course Part 1</span>
+                <p>Focus on completing a section of your course. Remember, there’s no rush; go at a pace that’s comfortable. A full hour here should help you make good progress.</p>
+            </li>
+            <li><span class="time-slot">7:30 PM - 8:30 PM: Workout + Audiobook</span>
+                <p>Use this time for your evening workout while listening to your audiobook. It’s a great way to combine mental and physical activity, keeping both engaging and light.</p>
+            </li>
+            <li><span class="time-slot">9:00 PM: Wind Down</span>
+                <p>Free time to relax and reflect on your day.</p>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
